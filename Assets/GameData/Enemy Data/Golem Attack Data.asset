@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1353739c3e9bd3a408bc66d51909397d, type: 3}
+  m_Name: Golem Attack Data
+  m_EditorClassIdentifier: 
+  attackRange: 5
+  kickBackForce: 0
+  coolDownTime: 3
+  minAttackPoint: 1
+  maxAttackPoint: 1
+  criticalMultiplier: 1
+  criticalChance: 50
+  rockDamage: 1
+  rockSpeed: 20
+  rockKickBackForce: 5
+  rockPrefab: {fileID: 2830794151968077217, guid: 2f04ba74d8d72c548a7a9d10df2d9d6d, type: 3}
+  brokenRocksPrefab: {fileID: 7637890258138970554, guid: 87a59ddf1636f4e45b45f4afd6b7d31c, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee14943681cdd934eaa42e196b0fcc0b, type: 3}
+  m_Name: Guard_2 Quest
+  m_EditorClassIdentifier: 
+  questName: Kill a Slime
+  description: There is a Slime in that forest, Kill it and  I wil give you a present.
+  isStarted: 0
+  isCompleted: 0
+  isFinished: 0
+  questRequireItemList: []
+  questRewardItemList:
+  - itemData: {fileID: 11400000, guid: 5a5bb12de106d524c89d1a3d7be7a7fc, type: 2}
+    itemAmount: 1

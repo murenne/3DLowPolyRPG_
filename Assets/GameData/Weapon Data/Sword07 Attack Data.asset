@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06754c18067885e40afb22edd2f6085d, type: 3}
+  m_Name: Sword07 Attack Data
+  m_EditorClassIdentifier: 
+  attackRange: 3
+  kickBackForce: 1
+  coolDownTime: 0
+  minAttackPoint: 100
+  maxAttackPoint: 100
+  criticalMultiplier: 5
+  criticalChance: 0.3
