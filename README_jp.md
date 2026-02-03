@@ -5,7 +5,29 @@
 3Dロールプレイングゲーム（RPG）プロジェクトです。
 ウェブ上のオープンソースプロジェクトをベースに、実務での開発経験を活かしてリファクタリングおよび機能拡張を行ったものです。
 
+## Tech Stack
+
+| カテゴリ | テクノロジー | バージョン | 説明 |
+| :--- | :--- | :--- | :--- |
+| **ゲームエンジン** | Unity | 2022.3.36f1 | コアゲーム開発エンジン |
+| **レンダリング** | Universal Render Pipeline (URP) | 14.0.11 | 高性能レンダリングパイプライン |
+| **グラフィックス** | Shader Graph | 内蔵 | ビジュアルシェーダー作成ツール |
+| **グラフィックス** | Post Processing | 内蔵 | 視覚効果および後処理 |
+| **入力** | Unity Input System | 1.7.0 | モダンな入力管理システム |
+| **カメラ** | Cinemachine | 2.10.0 | 動的なカメラシステム |
+| **アニメーション** | DOTween | - | トゥイーンアニメーションライブラリ |
+| **アニメーション** | Timeline | 1.7.6 | カットシーンおよびシークエンス作成 |
+| **AI/ナビゲーション** | NavMesh & AI Navigation | 1.1.5 | 敵のパスファインディングとナビゲーション |
+| **レベルデザイン** | ProBuilder | 5.2.2 | 3Dモデリングおよびレベルデザイン |
+| **レベルデザイン** | PolyBrush | 1.1.6 | 地形ペイントおよびオブジェクト配置 |
+| **レベルデザイン** | ProGrids | 3.0.3-preview.6 | グリッドベースのオブジェクトスナップ |
+| **データ** | Scriptable Objects | 内蔵 | データ駆動型ゲームデザイン |
+| **データ** | JSON | 内蔵 | セーブ/ロードシステムのシリアライズ |
+
+---
+
 * [3D Low Poly RPG](#3d-low-poly-rpg)
+    * [Tech Stack](#tech-stack)
     * [Getting Started](#getting-started)
     * [Control](#control)
     * [Design Pattern](#design-pattern)

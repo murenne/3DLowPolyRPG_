@@ -5,7 +5,29 @@
 This is a 3D Role-Playing Game project.
 It is based on open-source web projects and has been refactored and enhanced using professional experience gained from actual game development.
 
+## Tech Stack
+
+| Category | Technology | Version | Description |
+| :--- | :--- | :--- | :--- |
+| **Game Engine** | Unity | 2022.3.36f1 | Core game development engine |
+| **Rendering** | Universal Render Pipeline (URP) | 14.0.11 | High-performance rendering pipeline |
+| **Graphics** | Shader Graph | Built-in | Visual shader creation tool |
+| **Graphics** | Post Processing | Built-in | Visual effects and post-processing |
+| **Input** | Unity Input System | 1.7.0 | Modern input handling system |
+| **Camera** | Cinemachine | 2.10.0 | Dynamic camera system |
+| **Animation** | DOTween | - | Tweening animation library |
+| **Animation** | Timeline | 1.7.6 | Cutscene and sequence creation |
+| **AI/Navigation** | NavMesh & AI Navigation | 1.1.5 | Enemy pathfinding and navigation |
+| **Level Design** | ProBuilder | 5.2.2 | 3D modeling and level design |
+| **Level Design** | PolyBrush | 1.1.6 | Terrain painting and object placement |
+| **Level Design** | ProGrids | 3.0.3-preview.6 | Grid-based object snapping |
+| **Data** | Scriptable Objects | Built-in | Data-driven game design |
+| **Data** | JSON | Built-in | Save/load system serialization |
+
+---
+
 * [3D Low Poly RPG](#3d-low-poly-rpg)
+    * [Tech Stack](#tech-stack)
     * [Getting Started](#getting-started)
     * [Control](#control)
     * [Design Pattern](#design-pattern)

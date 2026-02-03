@@ -5,8 +5,30 @@
 这是一个3D角色扮演类游戏项目  
 以网络开源项目为基础，加上工作中参与过的项目经验，重构出来的项目
 
+## Tech Stack
+
+| 类别 | 技术 | 版本 | 描述 |
+| :--- | :--- | :--- | :--- |
+| **游戏引擎** | Unity | 2022.3.36f1 | 核心游戏开发引擎 |
+| **渲染** | Universal Render Pipeline (URP) | 14.0.11 | 高性能渲染管线 |
+| **图形** | Shader Graph | 内置 | 可视化着色器创建工具 |
+| **图形** | Post Processing | 内置 | 视觉特效与后期处理 |
+| **输入** | Unity Input System | 1.7.0 | 现代输入处理系统 |
+| **摄像机** | Cinemachine | 2.10.0 | 动态摄像机系统 |
+| **动画** | DOTween | - | 补间动画库 |
+| **动画** | Timeline | 1.7.6 | 过场动画与序列创建 |
+| **AI/导航** | NavMesh & AI Navigation | 1.1.5 | 敌人寻路与导航 |
+| **关卡设计** | ProBuilder | 5.2.2 | 3D 建模与关卡设计 |
+| **关卡设计** | PolyBrush | 1.1.6 | 地形绘画与物体放置 |
+| **关卡设计** | ProGrids | 3.0.3-preview.6 | 基于网格的物体吸附 |
+| **数据** | Scriptable Objects | 内置 | 数据驱动型游戏设计 |
+| **数据** | JSON | 内置 | 存档系统序列化 |
+
+---
+
 <!--ts-->
 * [3D Low Poly RPG](#3d-low-poly-rpg)
+    * [Tech Stack](#tech-stack)
     * [Getting Started](#getting-started)
     * [Control](#control)
     * [Design Pattern](#design-pattern)
